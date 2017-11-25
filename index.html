@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+     Created on :
+     Author : Azhar Hussain
+     Email: azharhussain4647@gmail.com
+     Website:
+     Facebook: https://www.facebook.com/azhar.hussainmasum
+-->
+<html class="no-js" lang="">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!-- Meta for Search Engine -->
+        <meta name="keywords" content="Website,Web Design,Web Development">
+        <meta name="description" content="">
+
+        <!-- Title --->
+        <title>Valid Contact Form</title>
+
+        <!-- Favicons -->
+        <link rel="icon" type="image/x-icon" href="img/">
+
+        <!-- Font Awesome Icon CSS-->
+        <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+
+        <!--*******************BootStrap CSS****-->
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+        <!--**************JQuery UI CSS**********-->
+        <link href="assets/css/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Google Font -->
+
+        <!-- HTML5 Boilerplate CSS -->
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+
+        <!-- Customize CSS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/media.css"/>
+
+        <!--HTML5shiv Js-->
+        <script src="assets/js/modernizr-3.5.0.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 jumbotron">
+                    <div class="text-center">
+                        <h1>Contact Form</h1>
+                    </div>
+                    <div>
+
+                        <form id="contact" action="sendmail.php" method="POST">
+                            <div class="form-group">
+                                <input class="form-control" type="text" id="fname" name="fname" placeholder="*Full Name"> 
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email Address">
+                                <span class="eml"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" id="mobile"  name="mobile" placeholder="Mobile">
+                            </div>
+                            <div class="form-group">
+                                <textarea rows="4" class="form-control" id="txt" name="comment" placeholder="Enter Your Message Here" maxlength="100"></textarea>
+                                <span class="ts"></span>
+                            </div>
+                            <input type="submit" class="btn btn-block btn-danger">
+                        </form>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+
+        <!-- Jquery -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/jquery-3.2.1.min.js"><\/script>')</script>
+        <!--****Form Validation Jquery Plugin*****-->
+        <script src="assets/js/jquery.validate.js" type="text/javascript"></script>
+        <!--Bootstrap Js--> 
+        <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="assets/js/custom.js" type="text/javascript"></script>
+        <!--Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga = function () {
+                ga.q.push(arguments)
+            };
+            ga.q = [];
+            ga.l = +new Date;
+            ga('create', 'UA-XXXXX-Y', 'auto');
+            ga('send', 'pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>
